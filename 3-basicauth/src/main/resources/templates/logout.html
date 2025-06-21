@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Logout</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover { background-color: #45a049; }
+    </style>
+    <meta name="_csrf" th:content="${_csrf.token}" />
+    <meta name="_csrf_header" th:content="${_csrf.headerName}" />
+</head>
+<body>
+<div class="login-container">
+    <h2>Logout Confirmation</h2>
+    <p>Are you sure you want to log out?</p>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit">Log Out</button>
+    </form>
+    <button onclick="logoutWithoutToken()" class="logout-button">
+        Logout (without CSRF token)
+    </button>
+    <script>
+        function logoutWithoutToken() {
+            const token = document.querySelector('meta[name="_csrf"]').getAttribute('content');
+            const header = document.querySelector('meta[name="_csrf_header"]').getAttribute('content');
+
+            fetch('/logout', {
+                method: 'POST',
+                headers: {
+                    [header]: token
+                }
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error('CSRF error: ' + response.status);
+                }
+            }).catch(error => {
+                alert("Error: " + error.message);
+            })
+        }
+    </script>
+</div>
+</body>
+</html>

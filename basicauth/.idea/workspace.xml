@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="060ef0ed-691e-4da8-bc40-0a660a81fc09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../csrf/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/java/com/prajeev/csrf/SecurewebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/java/com/prajeev/csrf/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/java/com/prajeev/csrf/controller/DashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/java/com/prajeev/csrf/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/java/com/prajeev/csrf/controller/LogoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/java/com/prajeev/csrf/controller/PathMatchingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/resources/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/main/resources/templates/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csrf/src/test/java/com/prajeev/csrf/SecurewebApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/java/com/prajeev/secureweb/SecurewebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/java/com/prajeev/secureweb/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/java/com/prajeev/secureweb/controller/DashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/java/com/prajeev/secureweb/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/java/com/prajeev/secureweb/controller/LogoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/java/com/prajeev/secureweb/controller/PathMatchingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/resources/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/main/resources/templates/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../secureweb/src/test/java/com/prajeev/secureweb/SecurewebApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;prajeev232&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/prajeev232/spring-security.git&quot;,
+    &quot;accountId&quot;: &quot;d4182454-1b50-4564-b49f-713ca25d665d&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ybZTUkZ80CvpkmpBBMjXVc0f8l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SecurewebApplication.executor": "Run",
+    "git-widget-placeholder": "2/basic-auth",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Projects/spring-security/5-session-mgmt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="csrf" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="csrf" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SecurewebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="csrf-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.prajeev.secureweb.SecurewebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="060ef0ed-691e-4da8-bc40-0a660a81fc09" name="Changes" comment="" />
+      <created>1750105240693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750105240693</updated>
+      <workItem from="1750105241861" duration="8074000" />
+      <workItem from="1750223369362" duration="1378000" />
+      <workItem from="1750224766558" duration="857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
