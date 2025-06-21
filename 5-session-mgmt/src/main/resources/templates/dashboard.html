@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Sensitive dashboard</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            .sensitive-data { background-color: #fff3f3; padding: 20px; border-radius: 5px; margin: 10px 0; }
+        </style>
+    </head>
+    <body>
+        <h1>Super Secret Dashboard</h1>
+        <div class="sensitive-data">
+            <h2>Sensitive Personal Info</h2>
+            <p>Credit card: <span th:text="${creditCardNumber}"></span></p>
+            <p>Annual salary: <span th:text="${salary}"></span></p>
+        </div>
+    </body>
+</html>

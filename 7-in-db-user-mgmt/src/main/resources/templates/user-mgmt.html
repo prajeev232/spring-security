@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User Management</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-section {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .success-message {
+            color: green;
+            margin-bottom: 15px;
+        }
+        .error-message {
+            color: red;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover { background-color: #45a049; }
+        button.delete {
+            background-color: #f44336;
+        }
+        button.delete:hover { background-color: #da190b; }
+        .roles-container { margin-top: 10px; }
+        .role-checkbox { margin-right: 10px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>User Management</h1>
+
+    <!-- Success and Error Messages -->
+    <div th:if="${successMessage}" class="success-message" th:text="${successMessage}"></div>
+    <div th:if="${errorMessage}" class="error-message" th:text="${errorMessage}"></div>
+
+    <!-- Create User Form -->
+    <div class="form-section">
+        <h2>Create New User</h2>
+        <form th:action="@{/admin/users/create}" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="salary">Salary:</label>
+                <input type="number" id="salary" name="salary" required>
+            </div>
+            <div class="form-group">
+                <label>Roles:</label>
+                <div class="roles-container">
+                    <label class="role-checkbox">
+                        <input type="checkbox" name="roles" value="USER"> USER
+                    </label>
+                    <label class="role-checkbox">
+                        <input type="checkbox" name="roles" value="ADMIN"> ADMIN
+                    </label>
+                </div>
+            </div>
+            <button type="submit">Create User</button>
+        </form>
+    </div>
+
+    <!-- Delete User Form -->
+    <div class="form-section">
+        <h2>Delete User</h2>
+        <form th:action="@{/admin/users/delete}" method="post">
+            <div class="form-group">
+                <label for="deleteUsername">Username:</label>
+                <input type="text" id="deleteUsername" name="username" required>
+            </div>
+            <button type="submit" class="delete">Delete User</button>
+        </form>
+    </div>
+
+    <!-- Change Password Form -->
+    <div class="form-section">
+        <h2>Change Password</h2>
+        <form th:action="@{/admin/users/change-password}" method="post">
+            <div class="form-group">
+                <label for="oldPassword">Current Password:</label>
+                <input type="password" id="oldPassword" name="oldPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </div>
+            <button type="submit">Change Password</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
